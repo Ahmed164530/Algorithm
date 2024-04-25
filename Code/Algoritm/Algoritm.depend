@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1713972872 source:f:\gmy\algorithm\algorithm\code\algoritm\nun-recursive.c
+	"Nun-Recursive.h"
+
+1713973491 f:\gmy\algorithm\algorithm\code\algoritm\nun-recursive.h
+
+1714051000 source:f:\gmy\algorithm\algorithm\code\algoritm\main.c
+	<stdio.h>
+	"Non-RecursiveCandels.h"
+	"RecursiveCandels.h"
+
+1714051056 source:f:\gmy\algorithm\algorithm\code\algoritm\non-recursivecandels.c
+	"Non-RecursiveCandels.h"
+
+1714048881 f:\gmy\algorithm\algorithm\code\algoritm\non-recursivecandels.h
+
+1714050788 source:f:\gmy\algorithm\algorithm\code\algoritm\recursivecandels.c
+	"RecursiveCandels.h"
+
+1714050785 f:\gmy\algorithm\algorithm\code\algoritm\recursivecandels.h
+
