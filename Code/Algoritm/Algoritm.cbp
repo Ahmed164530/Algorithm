@@ -31,6 +31,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Non-RecursiveCandels.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Non-RecursiveCandels.h" />
+		<Unit filename="RecursiveCandels.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="RecursiveCandels.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

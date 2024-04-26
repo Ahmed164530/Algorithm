@@ -6,8 +6,7 @@ typedef struct {
     int count;
 } MaxHeightCount;
 
-/*int recursive_candles(int *candles, int n, int current_height, int max_height);
-int birthdaycakeCandles(int *candles, int n);*/
+
 
 MaxHeightCount recursive_candles(int *candles, int n, int current_height, int max_height);
 int birthdayCandles(int *candles, int n);
