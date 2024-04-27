@@ -15,11 +15,11 @@ int main() {
     }
 
 
-  /* int tallest_candles = birthdayCandles(candles, n);
+    /* int tallest_candles = birthdayCandles(candles, n);
 
      int tallest_candles = birthdayCakeCandles(candles, n);
 
-    printf("Number of tallest candles: %d\n", tallest_candles);*/
+     printf("Number of tallest candles: %d\n", tallest_candles);*/
 
 
 
