@@ -23,6 +23,6 @@ int birthdayCakeCandles(int *candles, int n) {
             count++;
         }
     }
-    printf("The Tallest Candel Is :%d\n",max_height);
+
     return count;
 }

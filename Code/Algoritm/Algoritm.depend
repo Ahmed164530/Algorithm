@@ -4,17 +4,17 @@
 
 1713973491 f:\gmy\algorithm\algorithm\code\algoritm\nun-recursive.h
 
-1714238996 source:f:\gmy\algorithm\algorithm\code\algoritm\main.c
+1714300426 source:f:\gmy\algorithm\algorithm\code\algoritm\main.c
 	<stdio.h>
 	"Non-RecursiveCandels.h"
 	"RecursiveCandels.h"
 
-1714234320 source:f:\gmy\algorithm\algorithm\code\algoritm\non-recursivecandels.c
+1714298437 source:f:\gmy\algorithm\algorithm\code\algoritm\non-recursivecandels.c
 	"Non-RecursiveCandels.h"
 
 1714052481 f:\gmy\algorithm\algorithm\code\algoritm\non-recursivecandels.h
 
-1714239448 source:f:\gmy\algorithm\algorithm\code\algoritm\recursivecandels.c
+1714300313 source:f:\gmy\algorithm\algorithm\code\algoritm\recursivecandels.c
 	"RecursiveCandels.h"
 	<stdio.h>
 	"RecursiveCandels.h"
