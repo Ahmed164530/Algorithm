@@ -1,4 +1,3 @@
-#include "RecursiveCandels.h"
 #include <stdio.h>
 #include "RecursiveCandels.h"
 

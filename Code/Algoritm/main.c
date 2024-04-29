@@ -22,10 +22,16 @@ int main() {
      printf("Number of tallest candles: %d\n", tallest_candles);*/
 
 
-     //Non-Recursive
+     //Non-Recursive1
      /*
      int tallest_candles = birthdayCakeCandles(candles, n);
 
+     printf("Number of tallest candles: %d\n", tallest_candles);*/
+
+
+      //Non-Recursive2
+     /*
+     int tallest_candles = birthdayCandles(candles, n);
      printf("Number of tallest candles: %d\n", tallest_candles);*/
 
 
