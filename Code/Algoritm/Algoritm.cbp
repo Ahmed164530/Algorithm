@@ -35,6 +35,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Non-RecursiveCandels.h" />
+		<Unit filename="Non-RecursiveCandels2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Non-RecursiveCandels2.h" />
 		<Unit filename="RecursiveCandels.c">
 			<Option compilerVar="CC" />
 		</Unit>
