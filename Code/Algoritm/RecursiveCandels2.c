@@ -36,3 +36,4 @@ MaxheightCount recursive_birthdayCakeCandles2(int* candles, int n) {
 
     return max_height_count;
 }
+
