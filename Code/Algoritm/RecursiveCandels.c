@@ -30,12 +30,10 @@ MaxHeightCount recursive_candles(int *candles, int n, int current_height, int ma
     return result;
 }
 
-int birthdayCandles(int *candles, int n) {
+int recursive_birthdayCandles(int *candles, int n) {
 
 
     MaxHeightCount max_height_count = recursive_candles(candles, n, candles[0], 0);
-
-   /* printf("The Tallest Candle Is: %d\n", max_height_count.height);*/
 
     return max_height_count.count;
 }

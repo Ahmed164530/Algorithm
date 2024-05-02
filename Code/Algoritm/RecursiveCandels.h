@@ -9,7 +9,7 @@ typedef struct {
 
 
 MaxHeightCount recursive_candles(int *candles, int n, int current_height, int max_height);
-int birthdayCandles(int *candles, int n);
+int recursive_birthdayCandles(int *candles, int n);
 
 #endif
 

@@ -2,9 +2,9 @@
 #include "RecursiveCandels2.h"
 
 
-MaxHeightCount_birthdayCandles(int* candles, int n) {
+MaxheightCount recursive_birthdayCakeCandles2(int* candles, int n) {
 
-    MaxHeightCount max_height_count ={.height = 0,.count = 0};
+    MaxheightCount max_height_count ={.height = 0,.count = 0};
     int* stack = (int*)malloc(n * sizeof(int));
     int top = -1;
 
@@ -34,5 +34,5 @@ MaxHeightCount_birthdayCandles(int* candles, int n) {
     max_height_count.count = count;
     free(stack);
 
-    return max_height_count.count;
+    return max_height_count;
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*#include "Non-RecursiveCandels.h"
+#include "Non-RecursiveCandels.h"
 #include "Non-RecursiveCandels2.h"
-#include "RecursiveCandels.h"*/
+#include "RecursiveCandels.h"
 #include "RecursiveCandels2.h"
 
 int main() {
@@ -20,25 +20,25 @@ int main() {
 
     //Recursive_1
      /*
-     int tallest_candles = birthdayCandles(candles, n);
+     int tallest_candles = recursive_birthdayCandles(candles, n);
      printf("Number of tallest candles: %d\n", tallest_candles);*/
 
      //Recursive_2
      /*
-     int tallest_candles =MaxHeightCount_birthdayCandles(candles, n);
+     int tallest_candles =non_recursive_birthdayCakeCandles2(candles, n);
      printf("Number of tallest candles: %d\n", tallest_candles);*/
 
 
      //Non-Recursive_1
      /*
-     int tallest_candles = birthdayCakeCandles(candles, n);
+     int tallest_candles = non_recursive_birthdayCakeCandles(candles, n);
 
      printf("Number of tallest candles: %d\n", tallest_candles);*/
 
 
       //Non-Recursive_2
      /*
-     int tallest_candles = birthdayCandles(candles, n);
+     int tallest_candles = non_recursive_birthdayCakeCandles2(candles, n);
      printf("Number of tallest candles: %d\n", tallest_candles);*/
 
 

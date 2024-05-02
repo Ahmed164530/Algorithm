@@ -1,6 +1,6 @@
 #include "Non-RecursiveCandels.h"
 
-int birthdayCakeCandles(int *candles, int n) {
+int non_recursive_birthdayCakeCandles(int *candles, int n) {
 
     int max_count = 0, count = 0, max_height = 0;
 

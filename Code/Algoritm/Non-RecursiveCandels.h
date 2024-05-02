@@ -1,6 +1,6 @@
 #ifndef NON-RECURSIVECANDELS_H
 #define NON-RECURSIVECANDELS_H
 
-int birthdayCakeCandles(int *candles, int n);
+int non_recursive_birthdayCakeCandles(int *candles, int n);
 
 #endif
