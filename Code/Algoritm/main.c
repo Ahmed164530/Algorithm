@@ -21,12 +21,12 @@ int main() {
     //Recursive_1
      /*
      int tallest_candles = recursive_birthdayCandles(candles, n);
-     printf("Number of tallest candles: %d\n", tallest_candles);*/
+     printf("Number of tallest candles: %d\n", tallest_candles);
 
      //Recursive_2
      /*
      int tallest_candles =non_recursive_birthdayCakeCandles2(candles, n);
-     printf("Number of tallest candles: %d\n", tallest_candles);
+     printf("Number of tallest candles: %d\n", tallest_candles);*/
 
 
      //Non-Recursive_1
