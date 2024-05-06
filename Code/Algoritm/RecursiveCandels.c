@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include "RecursiveCandels.h"
 
-
-
 MaxHeightCount recursive_candles(int *candles, int n, int current_height, int max_height) {
     if (n == 0) {
-        MaxHeightCount result = {.height = 0, .count = 0};
+        MaxHeightCount result = {.height = max_height, .count = 0};
         return result;
     }
 
@@ -31,7 +29,9 @@ MaxHeightCount recursive_candles(int *candles, int n, int current_height, int ma
 }
 
 int recursive_birthdayCandles(int *candles, int n) {
-
+    if (n <= 0) {
+        return 0;
+    }
 
     MaxHeightCount max_height_count = recursive_candles(candles, n, candles[0], 0);
 

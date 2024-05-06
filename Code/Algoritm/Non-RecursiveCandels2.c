@@ -1,22 +1,29 @@
 #include "Non-RecursiveCandels2.h"
 
-int non_recursive_birthdayCakeCandles2(int *candles,int n){
-    if(n<=0){
+#include "Non-RecursiveCandels2.h"
+
+
+int non_recursive_birthdayCakeCandles2(int *candles, int n) {
+    if (n <= 0) {
         return 0;
     }
-    int maxCount = 0;
-    int maximumHeight = candles[0];
-    for (int i=0;i<n;i++){
-            int count = 1;
-        for (int j=i+1;j<n;j++) {
-            if (candles[i] == candles[j]) {
-                count++;}
-                }
-    if (count>maxCount) {
-            maxCount=count;
-            maximumHeight=candles[i];}
-            }
 
-    return maxCount;
+    int max_count = 0;
+    int max_height = candles[0];
+
+    // Find the maximum height
+    for (int i = 1; i < n; i++) {
+        if (candles[i] > max_height) {
+            max_height = candles[i];
+        }
+    }
+
+    // Count occurrences of the maximum height
+    for (int i = 0; i < n; i++) {
+        if (candles[i] == max_height) {
+            max_count++;
+        }
+    }
+
+    return max_count;
 }
-
